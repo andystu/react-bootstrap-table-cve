@@ -1,6 +1,6 @@
 {
   "name": "react-bootstrap-table-cve",
-  "version": "4.3.8",
+  "version": "4.3.9",
   "description": "It's a react table for bootstrap without dangerouslySetInnerHTML",
   "main": "./lib/index.js",
   "repository": {

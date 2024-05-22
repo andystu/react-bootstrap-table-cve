@@ -113,7 +113,7 @@ class TableBody extends Component {
             formattedValue = column.format(fieldValue, data, column.formatExtraData, r);
             if (!React.isValidElement(formattedValue)) {
               columnChild = (
-                <div> {formattedValue} </div>
+                <div> { formattedValue } </div>
               );
             } else {
               columnChild = formattedValue;
