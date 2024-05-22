@@ -1,4 +1,6 @@
-# react-bootstrap-table
+# react-bootstrap-table-cve
+
+Fork from https://github.com/react-bootstrap-table/react-bootstrap-table and just for fixing dangerouslySetInnerHTML [cve-2021-23398](https://github.com/advisories/GHSA-2589-w6xf-983r)
 
 ## [`react-bootstrap-table2`](https://github.com/react-bootstrap-table/react-bootstrap-table2) already released, this project will stop development after 2018Q2
 
@@ -8,7 +10,7 @@
 
 [![Dependency Status][deps-badge]][deps]
 [![devDependency Status][dev-deps-badge]][dev-deps]
-[![peerDependency Status][peer-deps-badge]][peer-deps]   
+[![peerDependency Status][peer-deps-badge]][peer-deps]
 It's a [react.js](http://facebook.github.io/react/) table for bootstrap, named react-bootstrap-table. It's a configurable, functional table component and make you build a Bootstrap Table more efficiency and easy in your React application, However ```react-bootstrap-table``` support these features:
 
 - Striped, borderless, condensed table
@@ -67,14 +69,14 @@ To use react-bootstrap-table in your react app, you should import it first.
 You can do this in two ways:
 
 ##### With a module bundler
-With a module bundler like [webpack](https://webpack.github.io/) that supports either CommonJS or ES2015 modules, use as you would anything else.  
+With a module bundler like [webpack](https://webpack.github.io/) that supports either CommonJS or ES2015 modules, use as you would anything else.
 You can include source maps on your build system to debug on development. Don't forget to Uglify on production.
 
 ```js
 // in ECMAScript 6
 import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
 // or in ECMAScript 5
-var ReactBSTable = require('react-bootstrap-table');  
+var ReactBSTable = require('react-bootstrap-table');
 var BootstrapTable = ReactBSTable.BootstrapTable;
 var TableHeaderColumn = ReactBSTable.TableHeaderColumn;
 ```
@@ -145,28 +147,28 @@ $ npm start # after start, open browser and go to http://localhost:3004
 ### [Documentation](http://allenfang.github.io/react-bootstrap-table/docs.html)
 
 ### Thanks
-**[luqin](https://github.com/luqin)**  
-Help this project to integrate a better examples demo, add travis & badge, code formatting, give a lot of suggestions and bugs report.   
-**[Whien](https://github.com/madeinfree)**  
-Implement a lots of awesome new feature and also fix some bugs and enhancements.   
-**[Parth Prajapati](https://github.com/prajapati-parth)**  
-Help to check issues and give great and useful instructions.   
-**[khinlatt](https://github.com/khinlatt)**  
-Contribute export csv, multi-search and bug fixing.  
-**[dana](https://github.com/dana2208)**  
-Contribute a new colum-filter design and great feedback given.  
-**[tbaeg](https://github.com/tbaeg)**  
-Bugs report and give some bootstrap and css suggestions actively.  
-**[bluedarker](https://github.com/bluedarker)**  
-Contribute the edit format & validation on cell editing and row insertion. Improve the custom styling.  
-**[Sofia Silva](https://github.com/staminaloops)**  
-Bug reports and fixing actively.  
-**[frontsideair](https://github.com/frontsideair)**  
-Fixing bugs and give improvement for functionality.  
-**[aaronhayes](https://github.com/aaronhayes)**  
-Bugs report and enhance the cell formatting.  
-**[Reggino](https://github.com/Reggino)**  
-Implement the TableDataSet component.  
+**[luqin](https://github.com/luqin)**
+Help this project to integrate a better examples demo, add travis & badge, code formatting, give a lot of suggestions and bugs report.
+**[Whien](https://github.com/madeinfree)**
+Implement a lots of awesome new feature and also fix some bugs and enhancements.
+**[Parth Prajapati](https://github.com/prajapati-parth)**
+Help to check issues and give great and useful instructions.
+**[khinlatt](https://github.com/khinlatt)**
+Contribute export csv, multi-search and bug fixing.
+**[dana](https://github.com/dana2208)**
+Contribute a new colum-filter design and great feedback given.
+**[tbaeg](https://github.com/tbaeg)**
+Bugs report and give some bootstrap and css suggestions actively.
+**[bluedarker](https://github.com/bluedarker)**
+Contribute the edit format & validation on cell editing and row insertion. Improve the custom styling.
+**[Sofia Silva](https://github.com/staminaloops)**
+Bug reports and fixing actively.
+**[frontsideair](https://github.com/frontsideair)**
+Fixing bugs and give improvement for functionality.
+**[aaronhayes](https://github.com/aaronhayes)**
+Bugs report and enhance the cell formatting.
+**[Reggino](https://github.com/Reggino)**
+Implement the TableDataSet component.
 
 [npm-badge]: http://badge.fury.io/js/react-bootstrap-table.svg
 [npm]: http://badge.fury.io/js/react-bootstrap-table
